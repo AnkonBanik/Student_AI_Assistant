@@ -4,57 +4,10 @@ This project is a high-performance **Student Academic Assistant** designed to fi
 1. **Local Hugging Face Transformer**: A locally hosted Text-to-Text Transfer Transformer (T5) model fine-tuned for Grammar Error Correction (GEC). It runs completely free, offline, and privately on your computer.
 2. **Cloud-Based Large Language Model (LLM)**: An API-driven connection to Google Gemini 1.5 Flash (free-tier key) providing complex syntactic and stylistic suggestions alongside categorical annotations.
 
----
-
-## 🛠️ Installation & Setup Instructions
-
-Because of standard sandboxing limits in the AI coding environment, these project files were generated in:
-📁 `C:\Users\HP\.gemini\antigravity\scratch\academic_assistant`
-
-### Step 1: Copy to your target directory
-Copy all the generated files in the folder above and paste them into your preferred project folder:
-📁 `D:\ANKON\P\MPMIS\AIML\Student AI Assistant`
-
-### Step 2: Open your Terminal / PowerShell
-Open your command prompt or PowerShell and navigate to your folder:
-```bash
-cd "D:\ANKON\P\MPMIS\AIML\Student AI Assistant"
-```
-
-### Step 3: Create a Python Virtual Environment
-This keeps your project dependencies isolated and clean:
-```bash
-python -m venv venv
-```
-
-Activate the virtual environment:
-- On Windows PowerShell:
-  ```bash
-  .\venv\Scripts\Activate.ps1
-  ```
-- On Windows Command Prompt:
-  ```bash
-  .\venv\Scripts\activate.bat
-  ```
-
-### Step 4: Install Project Dependencies
-Install the required libraries (Streamlit, PyTorch, Transformers, etc.):
-```bash
-pip install -r requirements.txt
-```
-
-### Step 5: Run the Streamlit Application
-Launch the interactive web application:
-```bash
-streamlit run app.py
-```
-This will automatically open your web browser to `http://localhost:8501`, showing your gorgeous academic assistant UI!
-
----
 
 ## 💡 Quick Academic Explanation (For your Deliverables)
 
-For your project submission report, here is how the backends work:
+For the project submission report, here is how the backends work:
 
 ### 1. The Local NLP Transformer (GEC Architecture)
 - **Model Used**: `vennify/t5-base-grammar-correction`
