@@ -1,7 +1,7 @@
 # 🎓 Smart AI Student Assistant: Grammar & Writing Advisor
 
 This project is a high-performance **Student Academic Assistant** designed to find and correct grammatical errors in text. It is built in Python using **Streamlit** for a premium user interface and integrates two primary AI architectures:
-1. **Local Hugging Face Transformer**: A locally hosted Text-to-Text Transfer Transformer (T5) model fine-tuned for Grammar Error Correction (GEC). It runs completely free, offline, and privately on your computer.
+1. **Local Hugging Face Transformer**: A locally hosted Text-to-Text Transfer Transformer (T5) model fine-tuned for Grammar Error Correction (GEC). It runs completely free, offline, and privately on the computer.
 2. **Cloud-Based Large Language Model (LLM)**: An API-driven connection to Google Gemini 1.5 Flash (free-tier key) providing complex syntactic and stylistic suggestions alongside categorical annotations.
 
 
